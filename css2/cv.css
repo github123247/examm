@@ -1,0 +1,532 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    float: left;
+    padding: 16px 0px;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.logo img{
+    
+}
+.menu{
+    width: 65%;
+    float: left;
+}
+.menu nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px 22px;
+    font-size: 15px;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: #989898;
+}
+    /* banner section */
+.banner{
+    width: 100%;
+    float: left;
+    background: url(../img2/banner.jpg) no-repeat;
+    background-size: cover;
+    
+    
+}
+.banner-main{
+    width: 100%;
+    float: left;
+}
+.banner-main h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 22px;
+}
+.banner-main p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.banner-main ul li {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 164px;
+}
+.banner-main ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background: #98c50a;
+    padding: 13px 16px;
+    border-radius: 8px;  
+} 
+    /* section-one */
+.section-one{
+    width: 100%;
+    float: left;
+}
+.section-one img{
+    margin-top: 90px;
+    margin-left: 50%;
+    margin-bottom: 40px;
+}
+.section-one-main{
+    width: 100%;
+    float: left;
+    margin-bottom: 140px;
+}
+.section-one-main h3{
+    text-align: center;
+    font-size: 28px;
+    color: #515151;
+}
+.section-one-main p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 17px;
+    color: #838383;
+    font-family: reguler;
+}
+.section-one-main span{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 17px;
+    color: #838383;
+    font-family: reguler;
+}
+    /* section-tow */
+.section-tow{
+    width: 100%;
+    float: left;
+}
+.section-alpha{
+    width: 50%;
+    float: left;
+    background: #e2f8ff;
+}
+.section-alpha img {
+    padding-top: 81px;
+    padding-left: 135px;
+}
+.alpha-main{
+    width: 50%;
+    float: right;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+.alpha-main span{
+    font-size: 20px;
+    margin-bottom: 31px;
+    display: block;
+}
+.alpha-main p{
+    font-size: 16px;
+    color: #99a4a7;
+    width: 76%;
+    line-height: 26px;   
+}
+.alpha-main nav ul li{
+    list-style: none;
+    margin-top: 40px;
+}
+.alpha-main nav ul li a{
+    list-style: none;
+    margin-top: 40px;
+    color: white;
+    background: #26a6d1;
+    padding: 11px 11px;
+    border-radius: 14px;
+}
+.section-bita{
+    width: 50%;
+    float: left;
+    background: #f5f9eb;
+    padding-bottom: 11px;
+}
+.section-bita img{
+    padding-top: 81px;
+    padding-left: 135px;
+}
+.bita-main{
+    width: 50%;
+    float: right;
+    margin-top: 38px;
+    margin-bottom: 37px;
+}
+.bita-main span{
+    font-size: 20px;
+    margin-bottom: 31px;
+    display: block;
+}
+.bita-main p{
+    font-size: 16px;
+    color: #99a4a7;
+    width: 76%;
+    line-height: 26px;   
+}
+.bita-main nav ul li{
+    list-style: none;
+    margin-top: 40px;
+}
+.bita-main nav ul li a{
+    list-style: none;
+    margin-top: 40px;
+    color: white;
+    background: #26a6d1;
+    padding: 11px 11px;
+    border-radius: 14px;  
+}
+    /*************************** section-three *************************/
+.section-three{
+    width: 100%;
+    float: left;
+}
+.three-main{
+    width: 80%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.three-main h4{
+    font-size: 26px;
+    color: #515151;
+}
+.three-main p{
+    font-size: 15px;
+    color: #8f8f8f;
+    width: 77%;
+    
+} 
+.three-btn{
+    width: 20%;
+    float: left;
+    margin-top: 97px;
+}
+.three-btn button{
+    padding: 10px 15px;
+    font-size: 15px;
+    background: transparent;
+    border: solid #b6b6b6;
+    border-radius: 8px;
+    color: 9a9a9a;
+}
+    /********************* section-four +++++++++++++++++++++++++++++++++++++++*/
+.section-four{
+    width: 100%;
+    float: left;
+    margin-bottom: 107px;
+}
+.section-four-alpha{
+    width: 30.33%;
+    float: left;
+    margin-right: 23px;
+    background: #f9f9f9;
+    border: 1px solid;
+    color: #e5e5e5;
+    border-radius: 10px;
+}
+.section-four-img{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.section-four-img img {
+    width: 100%;
+}
+.alpha-butn{
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 80%;
+    left: 57%;
+}
+.btn{
+    color: white;
+    background: #25a5d1;
+    border: 1px solid #25a5d1;
+    padding: 5px 12px;
+    font-size: 16px;
+    font-family: bold;
+    border-radius: 6px;
+}
+.section-four-bita{
+    width: 31.33%;
+    float: left;
+}
+
+.alpha-content {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.alpha-content h5{
+    font-size: 16px;
+    margin-left: 35px;
+}
+.alpha-content p{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-top: 16px;
+    width: 72%;
+    margin-left: 36px;
+    margin-bottom: 69px;
+}
+.alpha-content h3{
+    font-size: 13px;
+    float: left;
+    margin-left: 35px;
+    color: #a0a0a0;
+}
+.alpha-content h4{
+    font-size: 13px;
+    float: right;
+    margin-right: 33px;
+    color: #a0a0a0;
+}
+.alpha-content h1{
+    border-bottom: 2px solid #d6d6d6;
+    width: 82%;
+    float: left;
+    display: block;
+    margin-left: 34px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.alpha-icon{
+    width: 100%;
+    float: left;
+}
+.alpha-icon h2{
+    font-size: 15px;
+    color: #a3a3a3;
+    margin-left: 48%;
+    float: left;
+}
+.alpha-icon img{
+    float: left;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+    /****************** section-four-bita *************************/
+.section-four-bita{
+    width: 30.33%;
+    float: left;
+    margin-right: 23px;
+    background: #f9f9f9;
+    border: 1px solid;
+    color: #e5e5e5;
+    border-radius: 10px;
+}
+.section-four-imge{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.section-four-imge img{
+    width: 100%;
+}
+.bita-butn{
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 80%;
+    left: 57%;
+}
+.btn{
+    color: white;
+    background: #25a5d1;
+    border: 1px solid #25a5d1;
+    padding: 5px 12px;
+    font-size: 16px;
+    font-family: bold;
+    border-radius: 6px;
+}
+.bita-content{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.bita-content h5{
+    font-size: 16px;
+    margin-left: 35px;
+}
+.bita-content p{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-top: 16px;
+    width: 72%;
+    margin-left: 36px;
+    margin-bottom: 69px;
+}
+.bita-content h3{
+    font-size: 13px;
+    float: left;
+    margin-left: 35px;
+    color: #a0a0a0;
+}
+.bita-content h4{
+    font-size: 13px;
+    float: right;
+    margin-right: 33px;
+    color: #a0a0a0;
+}
+.bita-content h1{
+    border-bottom: 2px solid #d6d6d6;
+    width: 82%;
+    float: left;
+    display: block;
+    margin-left: 34px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.bita-icon{
+    width: 100%;
+    float: left;
+}
+.bita-icon h2{
+    font-size: 15px;
+    color: #a3a3a3;
+    margin-left: 48%;
+    float: left;
+}
+.bita-icon img{
+    float: left;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+    /************************ section-four-gama ********************/
+.section-four-gama{
+    width: 30.33%;
+    float: left;
+    margin-right: 23px;
+    background: #f9f9f9;
+    border: 1px solid;
+    color: #e5e5e5;
+    border-radius: 10px;
+}
+.section-four-imge-{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.section-four-imge- img{
+    width: 100%;
+}
+.gama-butn{
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 80%;
+    left: 57%;
+}
+.btn{
+    color: white;
+    background: #25a5d1;
+    border: 1px solid #25a5d1;
+    padding: 5px 12px;
+    font-size: 16px;
+    font-family: bold;
+    border-radius: 6px;
+}
+.gama-content{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.gama-content h5{
+    font-size: 16px;
+    margin-left: 35px;
+}
+.gama-content p{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-top: 16px;
+    width: 72%;
+    margin-left: 36px;
+    margin-bottom: 69px;
+}
+.gama-content h3{
+    font-size: 13px;
+    float: left;
+    margin-left: 35px;
+    color: #a0a0a0;
+}
+.gama-content h4{
+    font-size: 13px;
+    float: right;
+    margin-right: 33px;
+    color: #a0a0a0;
+}
+.gama-content h1{
+    border-bottom: 2px solid #d6d6d6;
+    width: 82%;
+    float: left;
+    display: block;
+    margin-left: 34px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.gama-icon{
+    width: 100%;
+    float: left;
+}
+.gama-icon h2{
+    font-size: 15px;
+    color: #a3a3a3;
+    margin-left: 48%;
+    float: left;
+}
+.gama-icon img{
+    float: left;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+    /*****************+ img-section ********************/
+.img-section{
+    width: 100%;
+    float: left;
+    margin-bottom: 35px;
+}
+.footer-img{
+    width: 100%;
+    float: left;
+}
+.footer-img img{
+    width: 100%;
+} 
+    /********* hr **************/
+hr {
+    width: 98%;
+    margin: 0 auto;
+    color: #e3e3e3;
+    border: 1px solid;
+}
+    /******************* footer ***************************/
+.footer{
+    width:100%;
+    float: left;
+    
+}
+.footer-contant{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.footer-contant p{
+    font-size: 13px;
+    color: #a2a2a2;
+    text-align: center;
+}
